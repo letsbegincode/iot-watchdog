@@ -10,6 +10,9 @@ This project demonstrates how **AI and encryption** can work together to secure 
 
 The project operates in **two main phases** — *Offline Training* and *Online Simulation*.
 
+![architecture_diagram](architecture_diagram.png)
+
+
 ### **Phase 1: Offline Model Training**
 - A labeled dataset (`data.csv`) is used to train a Random Forest classifier to distinguish between **Normal** and **Anomalous** activity.
 - The training script (`train_model.py`) outputs:
@@ -73,8 +76,8 @@ Follow these steps **exactly** to experience the full end-to-end simulation.
 
 1. Clone this repository:
 ```bash
-   git clone https://github.com/yourusername/smart_building_security.git
-   cd smart_building_security
+   git clone https://github.com/letsbegincode/iot-watchdog.git
+   cd iot-watchdog
 ```
 
 2. (Recommended) Create and activate a virtual environment:
